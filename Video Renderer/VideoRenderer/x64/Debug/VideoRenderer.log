@@ -1,3 +1,0 @@
-﻿  Logger.cpp
-P:\CPP\VideoRenderer\VideoRenderer\Logger.cpp(10,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  VideoRenderer.vcxproj -> P:\CPP\VideoRenderer\x64\Debug\VideoRenderer.exe
