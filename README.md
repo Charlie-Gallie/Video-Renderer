@@ -1,5 +1,5 @@
 # Video Renderer
-Renders image files into a video file using OpenCV.
+Renders image files into a video file using OpenCV.<br>
 Please add a copy of `opencv_imgproc454.dll` to the executables' directory if you wish to run the program.
 # Examples
 All 3D renders in the following videos use this application:
