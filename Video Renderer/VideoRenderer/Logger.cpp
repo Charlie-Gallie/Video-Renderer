@@ -19,7 +19,7 @@ void Logger::list(Config* config, bool allowChanges) {
 	int
 		longestKeyLength = longestCharCount(listOfKeys),
 		spacerPadding = 4;
-	std::string spacerCharacter = ".";
+	std::string spacerCharacter = "."; // Could be char but putting multiple characters is valid so there's no reason to limit that.
 	for (auto& section : *config->getConfig()) {
 		std::ostringstream os;
 		std::fill_n(std::ostream_iterator<std::string>(os), longestKeyLength - section.first.length() + 4, spacerCharacter);
